@@ -1,0 +1,39 @@
+{
+    "menuItems": [
+        {
+            "id": "0",
+            "status": "all",
+            "label": "Összes",
+            "isPushed": true,
+            "border": ""
+        },
+        {
+            "id": "1",
+            "status": "free",
+            "label": "Elérhető",
+            "isPushed": false,
+            "border": "border border-3 border-Blue-400 rounded-full"
+        },
+        {
+            "id": "2",
+            "status": "reserved",
+            "label": "Foglalt",
+            "isPushed": false,
+            "border": "border border-3 border-Orange rounded-full"
+        },
+        {
+            "id": "3",
+            "status": "closed",
+            "label": "Lejárt",
+            "isPushed": false,
+            "border": "border border-3 border-Red rounded-full"
+        },
+        {
+            "id": "4",
+            "status": "wrong",
+            "label": "Sérült",
+            "isPushed": false,
+            "border": "border border-3 border-Brown rounded-full"
+        }
+    ]
+}

@@ -1,0 +1,65 @@
+ @import './base.css';
+ @import './fonts.css';
+ @tailwind base;
+ @tailwind components;
+
+ @layer {
+     .font-ReemKufiBold {
+         font-family: 'ReemKufiBold', sans-serif;
+         /* További stílusok itt */
+     }
+
+     #app {
+         background-image: url("../assets/Background.svg");
+         background-position: center center;
+         background-repeat: no-repeat;
+         background-size: cover;
+         @apply h-screen pt-[60px] pb-[33px] px-[80px] font-ReemKufiBold text-lg text-Brown;
+     }
+
+     .left-blur-card {
+         background-color: rgba(255, 251, 235, 0.70);
+         backdrop-filter: blur(5px);
+         @apply w-[1296px] h-[796px] rounded-[32px]
+     }
+
+     .right-blur-card {
+         background-color: rgba(255, 251, 235, 0.70);
+         backdrop-filter: blur(5px);
+         @apply w-[412px] h-[860px] rounded-[32px] overflow-hidden p-8 flex flex-col items-center gap-10
+     }
+
+     .right-card {
+         background-image: linear-gradient(#FFFBEB, #FDF1C8);
+         box-shadow: 1px 1px 1px 0px rgba(255, 251, 235, 0.30) inset, -1px -1px 1px 0px rgba(149, 134, 83, 0.50) inset;
+         filter: drop-shadow(2px 2px 5px rgba(149, 134, 83, 0.20)) drop-shadow(2px -2px 5px rgba(149, 134, 83, 0.20)) drop-shadow(-2px 2px 5px rgba(149, 134, 83, 0.20));
+         @apply w-[1408px] h-[796px] rounded-[32px]
+     }
+
+     .package-style {
+         background-image: linear-gradient(#FFFBEB, #FDF1C8);
+         box-shadow: 1px 1px 1px 0px rgba(255, 251, 235, 0.30) inset, -1px -1px 1px 0px rgba(149, 134, 83, 0.50) inset;
+         filter: drop-shadow(2px 2px 5px rgba(149, 134, 83, 0.20)) drop-shadow(2px -2px 5px rgba(149, 134, 83, 0.20)) drop-shadow(-2px 2px 5px rgba(149, 134, 83, 0.20));
+     }
+
+     .btn-inactive {
+         background-image: linear-gradient(#FFFBEB, #FDF1C8);
+         box-shadow: -2px -2px 4px 0px rgba(149, 134, 83, 0.10) inset, 2px 2px 4px 0px #FFFBEB inset, -5px -5px 5px 0px rgba(255, 251, 235, 0.40), 5px 5px 10px 0px rgba(149, 134, 83, 0.20);
+         border: 2px solid rgba(0, 0, 0, 0.05);
+         width: 185px;
+         height: 76px;
+         @apply opacity-90 rounded-[50px] px-6 py-5
+     }
+
+     .btn-active {
+         background-image: linear-gradient(to right, #1EBAFF, #127099);
+         box-shadow: -2px -2px 4px 0px rgba(149, 83, 146, 0.1) inset, 2px 2px 4px 0px #FFFBEB inset, -5px -5px 5px 0px rgba(255, 251, 235, 0.40), 5px 5px 10px 0px rgba(149, 134, 83, 0.20);
+         border: 2px solid rgba(0, 0, 0, 0.05);
+         min-width: 185px;
+         height: 76px;
+         @apply opacity-90 rounded-[50px] px-6 py-5
+     }
+
+ }
+
+ @tailwind utilities;

@@ -1,0 +1,202 @@
+{
+    "vests": [
+        {
+            "id": "0",
+            "label": "01",
+            "status": "free",
+            "statusLabel": "Elérhető",
+            "size": "XXL",
+            "time": " ",
+            "order": "",
+            "isClosed": false,
+            "warning": false
+        },
+        {
+            "id": "1",
+            "label": "02",
+            "status": "free",
+            "statusLabel": "Elérhető",
+            "size": "XL",
+            "time": " ",
+            "order": "",
+            "isClosed": false,
+            "warning": false
+        },
+        {
+            "id": "2",
+            "label": "03",
+            "status": "free",
+            "statusLabel": "Elérhető",
+            "size": "L",
+            "time": " ",
+            "order": "",
+            "isClosed": false,
+            "warning": false
+        },
+        {
+            "id": "3",
+            "label": "04",
+            "status": "free",
+            "statusLabel": "Elérhető",
+            "size": "S",
+            "time": " ",
+            "order": "",
+            "isClosed": false,
+            "warning": false
+        },
+        {
+            "id": "4",
+            "label": "05",
+            "status": "free",
+            "statusLabel": "Elérhető",
+            "size": "M",
+            "time": " ",
+            "order": "",
+            "isClosed": false,
+            "warning": false
+        },
+        {
+            "id": "5",
+            "label": "06",
+            "status": "free",
+            "statusLabel": "Elérhető",
+            "size": "S",
+            "time": " ",
+            "order": "",
+            "isClosed": false,
+            "warning": false
+        },
+        {
+            "id": "6",
+            "label": "07",
+            "status": "free",
+            "statusLabel": "Elérhető",
+            "size": "L",
+            "time": " ",
+            "order": "",
+            "isClosed": false,
+            "warning": false
+        },
+        {
+            "id": "7",
+            "label": "08",
+            "status": "wrong",
+            "statusLabel": "Sérült",
+            "size": "XXL",
+            "time": " ",
+            "order": "",
+            "isClosed": false,
+            "warning": false
+        },
+        {
+            "id": "8",
+            "label": "09",
+            "status": "free",
+            "statusLabel": "Elérhető",
+            "size": "XXL",
+            "time": " ",
+            "order": "",
+            "isClosed": false,
+            "warning": false
+        },
+        {
+            "id": "9",
+            "label": "10",
+            "status": "free",
+            "statusLabel": "Elérhető",
+            "size": "XXL",
+            "time": " ",
+            "order": "",
+            "isClosed": false,
+            "warning": false
+        },
+        {
+            "id": "10",
+            "label": "11",
+            "status": "free",
+            "statusLabel": "Elérhető",
+            "size": "XXL",
+            "time": " ",
+            "order": "",
+            "isClosed": false,
+            "warning": false
+        },
+        {
+            "id": "11",
+            "label": "12",
+            "status": "free",
+            "statusLabel": "Elérhető",
+            "size": "XXL",
+            "time": " ",
+            "order": "",
+            "isClosed": false,
+            "warning": false
+        },
+        {
+            "id": "12",
+            "label": "13",
+            "status": "reserved",
+            "statusLabel": "Foglalt",
+            "size": "XXL",
+            "time": "09:06",
+            "order": "10perc",
+            "isClosed": false,
+            "warning": false
+        },
+        {
+            "id": "13",
+            "label": "14",
+            "status": "reserved",
+            "statusLabel": "Foglalt",
+            "size": "XL",
+            "time": "25:58",
+            "order": "30perc",
+            "isClosed": false,
+            "warning": false
+        },
+        {
+            "id": "14",
+            "label": "15",
+            "status": "reserved",
+            "statusLabel": "Foglalt",
+            "size": "L",
+            "time": "",
+            "order": "VIP",
+            "isClosed": false,
+            "warning": false
+        },
+        {
+            "id": "15",
+            "label": "16",
+            "status": "reserved",
+            "statusLabel": "Foglalt",
+            "size": "S",
+            "time": "",
+            "order": "10perc",
+            "isClosed": true,
+            "warning": false
+        },
+        {
+            "id": "16",
+            "label": "17",
+            "status": "reserved",
+            "statusLabel": "Foglalt",
+            "size": "M",
+            "time": "",
+            "order": "20perc",
+            "isClosed": true,
+            "warning": false
+        },
+        {
+            "id": "17",
+            "label": "18",
+            "status": "reserved",
+            "statusLabel": "Foglalt",
+            "size": "XXL",
+            "time": "00:59",
+            "order": "20perc",
+            "isClosed": false,
+            "warning": true
+        }
+    ]
+}
