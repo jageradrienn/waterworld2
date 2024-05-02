@@ -36,7 +36,7 @@ const vestsByStatus = computed(() => {
 const handleClick = (id) => {
   if (id != null) {
     activeVest.value = filter(vests, { 'id': id })[0];
-    alert(activeVest.value.id);
+    /*     alert(activeVest.value.id); */
   }
 }
 

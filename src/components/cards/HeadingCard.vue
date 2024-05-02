@@ -1,6 +1,8 @@
 <template>
-    <p class="text-4xl leading-[120%]">{{ h1Label }}</p>
-    <p class="leading-[152%] mb-8">{{ h2Label }}</p>
+    <div>
+        <p class="text-4xl">{{ h1Label }}</p>
+        <p>{{ h2Label }}</p>
+    </div>
 </template>
 
 <script setup>

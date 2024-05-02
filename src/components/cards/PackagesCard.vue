@@ -1,5 +1,5 @@
 <template>
-    <div class="flex items-center gap-5">
+    <div class="flex items-center gap-8">
         <StateNormalCard label="10 perc" />
         <StateNormalCard label="20 perc" />
         <StateNormalCard label="30 perc" />

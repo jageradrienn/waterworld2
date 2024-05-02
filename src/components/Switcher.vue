@@ -1,11 +1,11 @@
 <template>
-    <section class="relative w-[400px] h-[80px] max-h-[80px]">
+    <section class="switcher relative">
         <div class="absolute switcher-bg top-0 left-1 w-full h-full ">
             <div class="relative flex justify-between items-center h-full  ">
                 <div class="flex items-center gap-2 ml-8 ">
                     <ActiveBlue /><span class="text-lg text-Blue-400 text-center">Aktív</span>
                 </div>
-                <div class="flex items-center gap-2 mr-16">
+                <div class="flex items-center gap-2 mr-12">
                     <BreakBrown /><span class="text-lg text-Brown text-center">Szüneteltetve</span>
                 </div>
             </div>
